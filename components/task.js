@@ -2,6 +2,7 @@ import { Text, HStack, IconButton, Icon, Box, Checkbox, Pressable } from "native
 import { FontAwesome5 } from "@expo/vector-icons";
 
 const TaskList = (props) => {
+  //contoh comment
   const { data, onChecked, onDeleted, deletedIcon, onItemPress } = props;
 
   return (
